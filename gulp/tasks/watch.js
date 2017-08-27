@@ -14,6 +14,28 @@ gulp.task('watch', function() {
     watch('./app/index.html', function() {
          browserSync.reload();
      });
+    
+    watch('./app/index-benefits.html', function() {
+         browserSync.reload();
+     });
+    
+    watch('./app/index-client.html', function() {
+         browserSync.reload();
+     });
+    
+    watch('./app/index-hours.html', function() {
+         browserSync.reload();
+     });
+    
+    watch('./app/index-rates.html', function() {
+         browserSync.reload();
+     });
+    
+    watch('./app/index-schedule.html', function() {
+         browserSync.reload();
+     });
+    
+    
      
     watch('./app/sketch.js', function() {
         browserSync.reload();

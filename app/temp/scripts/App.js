@@ -93,7 +93,7 @@ var MobileMenu = function () {
 
         this.menuIcon = (0, _jquery2.default)(".mobile-menu__menu-icon");
         this.menuContent = (0, _jquery2.default)(".mobile-menu__menu-content");
-        this.opaqueScreen = (0, _jquery2.default)(".mobile-menu__opaque-screen");
+        this.opaqueScreen = (0, _jquery2.default)(".body__screen");
         this.events();
     }
 
@@ -107,13 +107,14 @@ var MobileMenu = function () {
         value: function toggleTheMenu() {
             this.menuContent.toggleClass("mobile-menu__menu-content--is-visible");
             this.menuIcon.toggleClass("mobile-menu__menu-icon--close-x");
-            this.opaqueScreen.toggleClass("mobile-menu__opaque-screen--is-visible");
+            this.opaqueScreen.toggleClass("body__screen--is-visible");
         }
     }]);
 
     return MobileMenu;
 }();
 
+console.log('testing');
 exports.default = MobileMenu;
 
 /***/ }),

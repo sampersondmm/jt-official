@@ -5,7 +5,7 @@ class MobileMenu {
 
         this.menuIcon = $(".mobile-menu__menu-icon");
         this.menuContent = $(".mobile-menu__menu-content");
-        this.opaqueScreen = $(".mobile-menu__opaque-screen");
+        this.opaqueScreen = $(".body__screen");
         this.events();
     }
     
@@ -16,7 +16,7 @@ class MobileMenu {
     toggleTheMenu() {
         this.menuContent.toggleClass("mobile-menu__menu-content--is-visible");
         this.menuIcon.toggleClass("mobile-menu__menu-icon--close-x");
-        this.opaqueScreen.toggleClass("mobile-menu__opaque-screen--is-visible");
+        this.opaqueScreen.toggleClass("body__screen--is-visible");
     }
 }
     
